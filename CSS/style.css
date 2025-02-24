@@ -1,0 +1,81 @@
+header {
+    background-color: turquoise;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: -7px;
+    color: #212F48;
+    padding: 10px;
+}
+
+header img {
+    margin-left: 0;
+    margin-bottom: -10px
+}
+
+header p {
+    margin-bottom:-39px;
+    text-align: right;
+}
+
+header a {
+    display: block;
+    text-align: right;
+}
+
+.text-container, .fig-container {
+    border: 2.5px solid lightseagreen;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+main {
+    background-color: #212F48;
+    display: column;
+    justify-content: space-between;
+    color: white;
+    margin-top: 0;
+}
+
+.fig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.fig h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.fig .text-container, .fig .fig-container {
+    width: 45%;
+    color: white;
+}
+
+.fig-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    color: white;
+}
+
+.fig-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    text-align: center;
+    color: lightseagreen;
+    font-style: italic;
+    display: block;
+    margin-top: 10px;
+    margin-right: 600px;
+    width: 100%;
+}
